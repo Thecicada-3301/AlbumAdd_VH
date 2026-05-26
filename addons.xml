@@ -1,1 +1,16 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.meusvideos" name="Meus Vídeos Favoritos" version="1.0.0" provider-name="Thecicada-3301">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Agregador de links Netlify</summary>
+        <description>Acessa os vídeos MP4 hospedados externamente de forma organizada.</description>
+    </extension>
+</addon>
+</addons>
