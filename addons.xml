@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.albumvh" name="Repository Album VH" version="1.0.0" provider-name="Thecicada-3301">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Repository Album VH">
+        <dir>
+            <info compressed="false">https://Thecicada-3301.github.io/AlbumAdd_VH/addons.xml</info>
+            <checksum>https://Thecicada-3301.github.io/AlbumAdd_VH/addons.xml.md5</checksum>
+            <datadir zip="true">https://Thecicada-3301.github.io/AlbumAdd_VH/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositório Oficial de Vídeos</summary>
+        <description>Garante atualizações automáticas para os add-ons de vídeo.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.meusvideos" name="Meus Vídeos Favoritos" version="1.0.0" provider-name="Thecicada-3301">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
